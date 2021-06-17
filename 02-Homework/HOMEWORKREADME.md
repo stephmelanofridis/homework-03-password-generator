@@ -1,6 +1,7 @@
 This weeks homework links:
 
 https://github.com/stephmelanofridis/homework-03-password-generator
+
 https://stephmelanofridis.github.io/homework-03-password-generator/02-Homework/Develop/index.html
 
 Password Generator:
