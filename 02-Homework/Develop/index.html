@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h2>Generate a Password</h2>
+      </div>
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <form id="options" class="options-flex-container">
+
+        <p>Select what you would like your random password to include:</p>
+
+        <div class="flex-item">
+          <label for="length">Password Length (min 8 characters - max 128 characters):</label>
+          <input type="number" id="length" value="16" min="8" max="128">
+        </div>
+
+        <div class=" flex-item">
+          <input type="checkbox" id="lowercase">
+          <label for="lowercase">Lowercase (e.g abc)</label>
+        </div>
+
+        <div class="flex-item">
+          <input type="checkbox" id="uppercase">
+          <label for="uppercase">Uppercase (e.g ABC)</label>
+        </div>
+
+        <div class="flex-item">
+          <input type="checkbox" id="numerals">
+          <label for="numerals">Numerals (e.g 123)</label>
+        </div>
+
+        <div class="flex-item">
+          <input type="checkbox" id="symbols">
+          <label for="symbols">Symbols e.g (!#$*/)</label>
+        </div>
+
+      </form>
+      <div class="card-footer">
+        <button id="generate" class="btn">Generate Password</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
