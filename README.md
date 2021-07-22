@@ -9,8 +9,8 @@ In this project I was provided with HTML and CSS to start. I added checkboxes to
 
 # Links to project
 
-Deployed project: https://stephmelanofridis.github.io/homework-03-password-generator/02-Homework/Develop/index.html
-Github repository: 
+Deployed project: https://stephmelanofridis.github.io/homework-03-password-generator/index.html
+Github repository: https://github.com/stephmelanofridis/homework-03-password-generator
 
 # Screenshot of project
 ![image](https://user-images.githubusercontent.com/82196946/126588859-0c8da9a8-6e07-4ac8-ad6b-ad1e7c4947fc.png)
